@@ -1,0 +1,27 @@
+/* universal star operator */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* css root variables */
+:root {
+    --soft-white: #f1f1f1;
+}
+
+/* Html and Body Tag */
+html {
+    font-size: 62.5%;
+}
+
+body {}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}

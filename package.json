@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/DevAman-sudo/MapBox#readme",
   "dependencies": {
     "chalk": "^4.1.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mapbox-gl": "^2.0.1"
   }
 }
