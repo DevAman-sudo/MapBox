@@ -6,7 +6,7 @@ const map = new mapboxgl.Map({
     zoom: 13
 });
 
-// search Map 
+// search Map //
 var geocoder = new MapboxGeocoder({
     accessToken: mapboxgl.accessToken,
     marker: {
@@ -16,3 +16,7 @@ var geocoder = new MapboxGeocoder({
 });
 
 map.addControl(geocoder);
+
+
+// Add zoom and rotation controls to the map.
+map.addControl(new mapboxgl.NavigationControl());
