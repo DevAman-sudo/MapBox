@@ -25,3 +25,15 @@ body {}
     bottom: 0;
     width: 100%;
 }
+
+/* search bar */
+.geocoder {
+    position: absolute;
+    z-index: 1;
+    top: 1rem;
+    left: 5%;
+    width: 80%;
+}
+.mapboxgl-ctrl-geocoder {
+    min-width: 100%;
+}
