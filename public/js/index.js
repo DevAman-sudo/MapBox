@@ -1,5 +1,6 @@
 // DOM elements //
 const searchBar = document.getElementById('geocoder');
+const overlay = document.getElementById('map-overlay');
 
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiZGV2YW1hbiIsImEiOiJja2tldGR4a28wMTI4MnBvNTZwNDZ4MmJlIn0.tNAqdVcfPOW_sBZd9Hk3Bw';
@@ -7,8 +8,8 @@ const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/dark-v10',
     attributionControl: false,
-    center: [-79.4512, 43.6568],
-    zoom: 13,
+    center: [85.3240, 27.7172],
+    zoom: 10,
     pitch: 60,
     bearing: -17.6,
     antialias: true
